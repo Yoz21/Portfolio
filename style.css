@@ -12,13 +12,14 @@
 header {
     background: #3C3A39;
     height:8%;
-    padding: 10px 10px;
+    padding: 20px 10px 5px 10px;
 }
 .head {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     height: 100%;
+    padding:5px 12px;
   
 }
 .name {
@@ -82,9 +83,8 @@ section {
    .placeholder {
     width: 327px;
     height: 237px;
-    left: 24px;
-    top: 0px;
-    right: 24px;
+    
+
    }    
     
  h2 {
@@ -93,7 +93,6 @@ section {
      font-weight: normal;
      font-size: 40px;
      color: #1C1A19;
-     width: 327px;
      height: 83px;
      line-height: 52px;
      }
@@ -112,17 +111,24 @@ section {
     font-size: 16px;
     line-height: 24px;
     color: #091E42;
+    
+    }
+    .invite-one {
+        padding: 12px;
+        width: 124px;
+        font-size: 10px;
     }
     .invite {
-      font-family: Inter;
+      font-family: 'Inter',sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 17px;
       line-height: 24px;
       color: #FFFFFF;
       background: #FF6B00;
-      padding: 10px;
+      padding: 10px 0px;
       text-align: center;
+      margin: 0px;
     }
     .see-project{
         margin: 20px 0;
@@ -137,8 +143,7 @@ section {
         text-align: 16px;
     }
     .art-item {
-        left: 0px;
-        right: 0px;
+        
         display: flex;
         flex-direction: column;
     
@@ -150,10 +155,7 @@ section {
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
-        width: 295px;
-        height: 87px;
-        left: 20px;
-        top: 101px;
+        padding-left: 0px;
 
     }
     .buttons {
@@ -162,17 +164,17 @@ section {
         align-items: center;
         
         list-style: none;
-        
+        padding: 0px 10px;
         
     }
     .buttons li {
         margin-right: 10px;
-        padding-left: 10px;
     }
     .art-item{
         background-image: url(icons/Img\ Placeholder\ \(1\).png);
         display: flex;
         flex-direction: column;
+        padding: 0px 10px;
     }
 
     .about-me {
@@ -181,8 +183,8 @@ section {
 
     }
     .buttons li{
-        gap: 10px;
-        padding: 10px 12px;
+    
+        padding: 10px 10px;
         background: rgba(255, 255, 255, 0.24);
         border: 1px beige;
 
@@ -265,4 +267,10 @@ section {
        font-size: 16px;
 
    }
-   
+   h1 {
+    font-family: 'Crete Round',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: #FF6B00;
+   }
