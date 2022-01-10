@@ -9,15 +9,17 @@
     margin:0px;
 }
 
-header {
+.hamburger {
     background: #3C3A39;
     height:8%;
     padding: 20px 10px 5px 10px;
+
 }
+        
 .head {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     height: 100%;
     padding:5px 12px;
   
@@ -51,10 +53,14 @@ section {
      list-style: none;
  }
  .text{
+    font-family: 'Crete Round',sans-serif;
     color: #FF6B00;
     margin-bottom: 10px;
-    font-size: 50px;
-
+    font-size: 40px;
+    
+ }
+ .text h1 {
+     margin: 0px;
  }
  .text1{
     font-family: 'roboto',sans-serif;
