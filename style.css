@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body{
-    
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body{
     background-color: yellow;
     padding:0px;
     margin:0px;
@@ -11,7 +12,8 @@ body{
 .hamburger {
     background: #3C3A39;
     height:8%;
-    padding: 10px 10px;
+    padding: 20px 10px 5px 10px;
+
 }
         
 .head {
@@ -19,7 +21,8 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-   
+    padding:5px 12px;
+  
 }
 .name {
     font-family: 'roboto', sans-serif;
@@ -40,7 +43,6 @@ section {
      background-image: url("icons/Group.png");
      background-repeat: no-repeat;
      background-position:100% 100%;
-     height: 70%;
 }
 
 
@@ -76,7 +78,205 @@ section {
     font-size: 16px;
     line-height: 24px;
     flex: none;
-order: 2;
-flex-grow: 0;
-margin: 12px 0px;
- }
+    order: 2;
+    flex-grow: 0;
+    margin: 12px 0px;
+   }
+ .work-section {
+    background-color:white;
+    display: grid;
+     }
+   .placeholder {
+    width: 327px;
+    height: 237px;
+    
+
+   }    
+    
+ h2 {
+     font-family:"Create Round",sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 40px;
+     color: #1C1A19;
+     height: 83px;
+     line-height: 52px;
+     }
+   .mini-title {
+    font-family: Crete Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #091E42;
+     }  
+    .dummy-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091E42;
+    
+    }
+    .invite-one {
+        padding: 12px;
+        width: 124px;
+        font-size: 10px;
+    }
+    .invite {
+      font-family: 'Inter',sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 24px;
+      color: #FFFFFF;
+      background: #FF6B00;
+      padding: 10px 0px;
+      text-align: center;
+      margin: 0px;
+    }
+    .see-project{
+        margin: 20px 0;
+        
+    }
+    .data{
+        font-family: Crete Round;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: 16px;
+    }
+    .art-item {
+        
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+    .selections {
+        font-family: 'Inter',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 0px;
+
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        list-style: none;
+        padding: 0px 10px;
+        
+    }
+    .buttons li {
+        margin-right: 10px;
+    }
+    .art-item{
+        background-image: url(icons/Img\ Placeholder\ \(1\).png);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+
+    .about-me {
+        left: 0px;
+        background: #1C1A19;
+
+    }
+    .buttons li{
+    
+        padding: 10px 10px;
+        background: rgba(255, 255, 255, 0.24);
+        border: 1px beige;
+
+    }
+    .h3-title {
+        font-family: 'Crete Round',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        color: #FF6B00;
+        margin-bottom: 24px ;
+
+      }
+      button{
+      border: none;
+      }  
+
+    .css{
+       color: black;
+       border: solid 1px rgb(2, 16, 29);
+       padding: 5px 10px;
+       width: 20%;
+       text-align: center;
+       margin-right: 10px;
+    }
+    .css-container{
+    display: flex;
+    }
+    .resume {
+        background: #FF6B00;
+        padding: 7px;
+        color: white;
+        margin-bottom: 88px;
+    }
+
+    .about-paragraph {
+        color: #F4F5F7;
+        font-family: "Inter", sans-serif;
+        font-size: 13px;
+    }
+    .work-on {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* width: 100%; */
+        padding: 120px 24px;
+    }
+    .list {
+        list-style: none;
+        font-family: 'Inter',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .list li {
+        padding: 10px 0;
+    }
+    .best {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: 'InaiMathi',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+    }
+   .about-paragraph {
+       font-family: 'Inter',sans-serif;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+
+   }
+   h1 {
+    font-family: 'Crete Round',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: #FF6B00;
+   }
