@@ -12,7 +12,8 @@
 .hamburger {
     background: #3C3A39;
     height:8%;
-    padding: 10px 10px;
+    padding: 20px 10px 5px 10px;
+
 }
         
 .head {
@@ -20,9 +21,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
-
     padding:5px 12px;
-
 }
 .name {
     font-family: 'roboto', sans-serif;
@@ -84,6 +83,7 @@ section {
    }
  .work-section {
     background-color:white;
+    display: grid;
      }
    .placeholder {
     width: 327px;
@@ -95,6 +95,10 @@ section {
     
  h2 {
      font-family:"Create ROund",sans-serif;
+   }    
+    
+ h2 {
+     font-family:"Create Round",sans-serif;
      font-style: normal;
      font-weight: normal;
      font-size: 40px;
@@ -103,6 +107,14 @@ section {
      height: 83px;
      line-height: 52px;
      border-bottom: 1px solid #212121;
+     heigh
+88
+ 
+    display: grid;
+89
+ 
+     }t: 83px;
+     line-height: 52px;
      }
    .mini-title {
     font-family: Crete Round;
@@ -129,8 +141,24 @@ section {
        color: #FFFFFF;
        background: #FF6B00;
         padding: 10px;
-        text-align: center;
->>>>>>> c0ca51e (add all the files for the project)
+        text-align: center;    
+    }
+    .invite-one {
+        padding: 12px;
+        width: 124px;
+        font-size: 10px;
+    }
+    .invite {
+      font-family: 'Inter',sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 24px;
+      color: #FFFFFF;
+      background: #FF6B00;
+      padding: 10px 0px;
+      text-align: center;
+      margin: 0px;
     }
     .see-project{
         margin: 20px 0;
@@ -147,17 +175,34 @@ section {
         font-family: Inter;
         font-style: normal;
         font-weight: normal;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: 16px;
+    }
+    .art-item {
+        
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+    .selections {
+        font-family: 'Inter',sans-serif;
+        font-style: normal;
+        font-weight: normal;
         font-size: 16px;
         line-height: 24px;
         width: 295px;
         height: 87px;
         left: 16px;
         top: 101px;
+        padding-left: 0px;
     }
     .buttons {
         display: flex;
         flex-direction: row;
         align-items: center;
+
         padding: 10px 12px;
         width: 56px;
         height: 40px
@@ -165,6 +210,19 @@ section {
     }
     .art-item {
         background-image: url('./icons/Img\ Placeholder\ \(1\).png');
+        
+        list-style: none;
+        padding: 0px 10px;
+        
+    }
+    .buttons li {
+        margin-right: 10px;
+    }
+    .art-item{
+        background-image: url(icons/Img\ Placeholder\ \(1\).png);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
     }
 
     .about-me {
@@ -177,6 +235,11 @@ section {
         align-items: center;
         background: rgba(255, 255, 255, 0.24);
         gap: 5px;
+    .buttons li{
+    
+        padding: 10px 10px;
+        background: rgba(255, 255, 255, 0.24);
+        border: 1px beige;
 
     }
     .h3-title {
@@ -198,6 +261,22 @@ section {
     width: 20%;
     text-align: center;
     margin-right: 10px;
+        font-size: 72px;
+        color: #FF6B00;
+        margin-bottom: 24px ;
+
+      }
+      button{
+      border: none;
+      }  
+
+    .css{
+       color: black;
+       border: solid 1px rgb(2, 16, 29);
+       padding: 5px 10px;
+       width: 20%;
+       text-align: center;
+       margin-right: 10px;
     }
     .css-container{
     display: flex;
@@ -224,6 +303,25 @@ section {
     }
     .list {
         list-style: none;
+        /* width: 100%; */
+        padding: 120px 24px;
+    }
+    .list {
+        list-style: none;
+        font-family: 'Inter',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .list li {
+        padding: 10px 0;
     }
     .best {
         display: flex;
@@ -320,3 +418,23 @@ section {
 		border: 1px solid #f55800;
 
 	}
+      
+        font-family: 'InaiMathi',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+    }
+   .about-paragraph {
+       font-family: 'Inter',sans-serif;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+
+   }
+   h1 {
+    font-family: 'Crete Round',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: #FF6B00;
+   }
