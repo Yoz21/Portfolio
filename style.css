@@ -12,8 +12,7 @@
 .hamburger {
     background: #3C3A39;
     height:8%;
-
-    padding: 20px 10px 5px 10px;
+    padding: 10px 10px;
 }
         
 .head {
@@ -85,23 +84,25 @@ section {
    }
  .work-section {
     background-color:white;
-    display: grid;
      }
    .placeholder {
     width: 327px;
     height: 237px;
-    
-
+    left: 24px;
+    top: 0px;
+    right: 24px;
    }    
     
  h2 {
-     font-family:"Create Round",sans-serif;
+     font-family:"Create ROund",sans-serif;
      font-style: normal;
      font-weight: normal;
      font-size: 40px;
      color: #1C1A19;
+     width: 327px;
      height: 83px;
      line-height: 52px;
+     border-bottom: 1px solid #212121;
      }
    .mini-title {
     font-family: Crete Round;
@@ -118,24 +119,18 @@ section {
     font-size: 16px;
     line-height: 24px;
     color: #091E42;
-    
-    }
-    .invite-one {
-        padding: 12px;
-        width: 124px;
-        font-size: 10px;
     }
     .invite {
-      font-family: 'Inter',sans-serif;
+      font-family: Inter;
       font-style: normal;
       font-weight: bold;
       font-size: 17px;
-      line-height: 24px;
-      color: #FFFFFF;
-      background: #FF6B00;
-      padding: 10px 0px;
-      text-align: center;
-      margin: 0px;
+       line-height: 24px;
+       color: #FFFFFF;
+       background: #FF6B00;
+        padding: 10px;
+        text-align: center;
+>>>>>>> c0ca51e (add all the files for the project)
     }
     .see-project{
         margin: 20px 0;
@@ -143,55 +138,33 @@ section {
     }
     .data{
         font-family: Crete Round;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 44px;
-        text-align: 16px;
-    }
-    .art-item {
-        
-        display: flex;
-        flex-direction: column;
-    
-
+         font-style: normal;
+         font-weight: normal;
+         font-size: 32px;
+         line-height: 44px;
     }
     .selections {
-        font-family: 'Inter',sans-serif;
+        font-family: Inter;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
-        padding-left: 0px;
-
+        width: 295px;
+        height: 87px;
+        left: 16px;
+        top: 101px;
     }
     .buttons {
         display: flex;
         flex-direction: row;
         align-items: center;
-        list-style: none;
-        padding: 0px 10px;
-
+        padding: 10px 12px;
+        width: 56px;
+        height: 40px
         
     }
-    .buttons li {
-        margin-right: 10px;
-        padding: 10px 10px;
-        background: rgba(255, 255, 255, 0.24);
-        border: 1px beige;
-
-    }
-
-     .buttons li:hover {
-         background-color: #fff5e1;
-         
-     }
-    
-    .art-item{
-        background-image: url(icons/Img\ Placeholder\ \(1\).png);
-        display: flex;
-        flex-direction: column;
-        padding: 0px 10px;
+    .art-item {
+        background-image: url('./icons/Img\ Placeholder\ \(1\).png');
     }
 
     .about-me {
@@ -199,27 +172,32 @@ section {
         background: #1C1A19;
 
     }
-    
+    .buttons {
+        display: flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.24);
+        gap: 5px;
+
+    }
     .h3-title {
         font-family: 'Crete Round',sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 72px;
+        font-size: 75px;
         color: #FF6B00;
-        margin-bottom: 24px ;
 
-      }
-      button{
-      border: none;
-      }  
+    }
+   button{
+    border: none;
+   }  
 
     .css{
-       color: black;
-       border: solid 1px rgb(2, 16, 29);
-       padding: 5px 10px;
-       width: 20%;
-       text-align: center;
-       margin-right: 10px;
+    color: black;
+    border: solid 1px rgb(2, 16, 29);
+    padding: 5px 10px;
+    width: 20%;
+    text-align: center;
+    margin-right: 10px;
     }
     .css-container{
     display: flex;
@@ -241,51 +219,104 @@ section {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* width: 100%; */
-        padding: 120px 24px;
+        width: 100%;
+        list-style: none;
     }
     .list {
         list-style: none;
-        font-family: 'Inter',sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 22px;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-    .list li {
-        padding: 10px 0;
     }
     .best {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        font-family: 'InaiMathi',sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
     }
-   .about-paragraph {
-       font-family: 'Inter',sans-serif;
-       font-style: normal;
-       font-weight: normal;
-       font-size: 16px;
 
-   }
-   h1 {
-    font-family: 'Crete Round',sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    color: #FF6B00;
-   }
+	.contact-form {
+		background-color: #fff;
+		background-image: none;
+		padding: 24px;
+	}
 
+	.the-contact {
+		display: flex;
+		flex-direction: column;
+	}
 
-   
-   
+	.the-contact > .contact-p {
+		font-family: 'Inter', sans-serif;
+		font-weight: 700;
+		line-height: 44px;
+		font-size: 32px;
+		text-align: center;
+		color:#172b4d;
+	}
+
+	form {
+		width: 100%;
+	}
+
+	.input__sec > * + * {
+		margin-top: 24px;
+	}
+
+	input {
+		display: inline-block;
+		width: 90%;
+		padding: 15px 16px;
+		text-align: left;
+		border: none;
+		border-bottom: 1px #dbd8d7 solid;
+	}
+
+	input::placeholder {
+		font-family: 'Inter', sans-serif;
+		font-style: normal;
+		color: #979493;
+		font-size: 15px;
+		line-height: 24px;
+		vertical-align: center;
+	}
+
+	textarea {
+		width: 90%;
+		height: 114px;
+		border: 1px solid ;
+		background-color: #fbf8f7;
+		padding: 12px;
+		border: none;
+		font-family: 'Inter', sans-serif;
+		color: #3c3a39;
+		font-size: 15px;
+		text-align: left;
+		vertical-align: top;
+		line-height: 24px;
+		overflow: hidden;
+	}
+
+	input:focus,
+	textarea:focus {
+		outline: none;
+	}
+
+	.btn__container {
+		text-align: center;
+	}
+
+	button { 
+		padding: 12px;
+		background-color: #ff6b00;
+		color: #fff;
+		font-size: 17px;
+		font-family: 'Inter', sans-serif;
+		font-style: normal;
+		line-height: 24px;
+		font-weight: 700;
+	}
+
+	button:hover {
+		color: #f55800;
+		background-color: #fff5e1;
+		border: 1px solid #f55800;
+
+	}
