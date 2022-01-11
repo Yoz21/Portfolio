@@ -1,9 +1,10 @@
 
 # Project Name
 
-> This is a mobile version of my portfolio.It only includes the first sections of the portfolio.
+ This is a mobile version of my portfolio.It is done in the template design I have chosen from figma.
 
-## Built With
+
+## Built Withgi
 
 - html
 - css
