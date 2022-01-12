@@ -12,8 +12,8 @@
 .hamburger {
     background: #3C3A39;
     height:8%;
-    padding: 20px 10px 5px 10px;
 
+    padding: 20px 10px 5px 10px;
 }
         
 .head {
@@ -21,7 +21,9 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+
     padding:5px 12px;
+
 }
 .name {
     font-family: 'roboto', sans-serif;
@@ -88,13 +90,8 @@ section {
    .placeholder {
     width: 327px;
     height: 237px;
-    left: 24px;
-    top: 0px;
-    right: 24px;
-   }    
     
- h2 {
-     font-family:"Create ROund",sans-serif;
+
    }    
     
  h2 {
@@ -103,17 +100,7 @@ section {
      font-weight: normal;
      font-size: 40px;
      color: #1C1A19;
-     width: 327px;
      height: 83px;
-     line-height: 52px;
-     border-bottom: 1px solid #212121;
-     heigh
-88
- 
-    display: grid;
-89
- 
-     }t: 83px;
      line-height: 52px;
      }
    .mini-title {
@@ -131,17 +118,7 @@ section {
     font-size: 16px;
     line-height: 24px;
     color: #091E42;
-    }
-    .invite {
-      font-family: Inter;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 17px;
-       line-height: 24px;
-       color: #FFFFFF;
-       background: #FF6B00;
-        padding: 10px;
-        text-align: center;    
+    
     }
     .invite-one {
         padding: 12px;
@@ -166,13 +143,6 @@ section {
     }
     .data{
         font-family: Crete Round;
-         font-style: normal;
-         font-weight: normal;
-         font-size: 32px;
-         line-height: 44px;
-    }
-    .selections {
-        font-family: Inter;
         font-style: normal;
         font-weight: normal;
         font-size: 32px;
@@ -192,24 +162,13 @@ section {
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
-        width: 295px;
-        height: 87px;
-        left: 16px;
-        top: 101px;
         padding-left: 0px;
+
     }
     .buttons {
         display: flex;
         flex-direction: row;
         align-items: center;
-
-        padding: 10px 12px;
-        width: 56px;
-        height: 40px
-        
-    }
-    .art-item {
-        background-image: url('./icons/Img\ Placeholder\ \(1\).png');
         
         list-style: none;
         padding: 0px 10px;
@@ -230,11 +189,6 @@ section {
         background: #1C1A19;
 
     }
-    .buttons {
-        display: flex;
-        align-items: center;
-        background: rgba(255, 255, 255, 0.24);
-        gap: 5px;
     .buttons li{
     
         padding: 10px 10px;
@@ -246,21 +200,6 @@ section {
         font-family: 'Crete Round',sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 75px;
-        color: #FF6B00;
-
-    }
-   button{
-    border: none;
-   }  
-
-    .css{
-    color: black;
-    border: solid 1px rgb(2, 16, 29);
-    padding: 5px 10px;
-    width: 20%;
-    text-align: center;
-    margin-right: 10px;
         font-size: 72px;
         color: #FF6B00;
         margin-bottom: 24px ;
@@ -298,11 +237,6 @@ section {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        list-style: none;
-    }
-    .list {
-        list-style: none;
         /* width: 100%; */
         padding: 120px 24px;
     }
@@ -328,97 +262,6 @@ section {
         justify-content: center;
         align-items: center;
         gap: 10px;
-    }
-
-	.contact-form {
-		background-color: #fff;
-		background-image: none;
-		padding: 24px;
-	}
-
-	.the-contact {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.the-contact > .contact-p {
-		font-family: 'Inter', sans-serif;
-		font-weight: 700;
-		line-height: 44px;
-		font-size: 32px;
-		text-align: center;
-		color:#172b4d;
-	}
-
-	form {
-		width: 100%;
-	}
-
-	.input__sec > * + * {
-		margin-top: 24px;
-	}
-
-	input {
-		display: inline-block;
-		width: 90%;
-		padding: 15px 16px;
-		text-align: left;
-		border: none;
-		border-bottom: 1px #dbd8d7 solid;
-	}
-
-	input::placeholder {
-		font-family: 'Inter', sans-serif;
-		font-style: normal;
-		color: #979493;
-		font-size: 15px;
-		line-height: 24px;
-		vertical-align: center;
-	}
-
-	textarea {
-		width: 90%;
-		height: 114px;
-		border: 1px solid ;
-		background-color: #fbf8f7;
-		padding: 12px;
-		border: none;
-		font-family: 'Inter', sans-serif;
-		color: #3c3a39;
-		font-size: 15px;
-		text-align: left;
-		vertical-align: top;
-		line-height: 24px;
-		overflow: hidden;
-	}
-
-	input:focus,
-	textarea:focus {
-		outline: none;
-	}
-
-	.btn__container {
-		text-align: center;
-	}
-
-	button { 
-		padding: 12px;
-		background-color: #ff6b00;
-		color: #fff;
-		font-size: 17px;
-		font-family: 'Inter', sans-serif;
-		font-style: normal;
-		line-height: 24px;
-		font-weight: 700;
-	}
-
-	button:hover {
-		color: #f55800;
-		background-color: #fff5e1;
-		border: 1px solid #f55800;
-
-	}
-      
         font-family: 'InaiMathi',sans-serif;
         font-style: normal;
         font-weight: bold;
