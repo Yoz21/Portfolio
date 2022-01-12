@@ -281,3 +281,92 @@ section {
     font-size: 50px;
     color: #FF6B00;
    }
+
+   .contact-form {
+  background: #ffff;
+   }
+
+   .contact-form > .the-contact {
+	   display: flex;
+	   flex-direction: column;
+	   text-align: center;
+   }
+
+   .the-contact > .contact-p {
+	   font-family: 'Inter', sans-serif;
+	   font-weight: 700;
+	   font-style: normal;
+	   font-size: 32px;
+	   line-height: 44px;
+	   text-align: center;
+	   color: #172b4d;
+   }
+
+   .the-contact > * + * {
+	   margin-top: 58px;
+   }
+
+  .input__sec > .name {
+	  width: 100%;
+  }
+
+  .name > * + * {
+	  margin-top: 24px;
+  }
+
+  .name > label {
+	  width: 100%;
+  }
+
+  label > input , textarea{
+	  width: 90%;
+	  text-align: left;
+  }
+
+  input:focus,
+  textarea:focus {
+   outline: none;
+  }
+
+  input {
+	  padding: 15px 16px;
+	  font-family: 'Inter', sans-serif;
+	  font-size: 15px;
+	  line-height: 24px;
+	  font-weight: 400;
+	  color: #979493;
+	  border-bottom: 1px solid #dbd8d7;
+	  border-top: 0;
+	  border-right: 0;
+	  border-left: 0;
+  }
+
+textarea {
+  width: 90%;
+  padding: 12px;
+  height: 114px;
+  background: #dbd8d7;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #3c3a39;
+  }
+
+  .btn__container > button {
+	padding: 12px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 24px;
+	color: #ffffff;
+	background-color: #ff6b00;
+  }
+
+  .btn__container > button:hover {
+	  background-color: #fff5e1;
+	  color: #ff6b00;
+	  border: 1px solid #f55000;
+  }
+
