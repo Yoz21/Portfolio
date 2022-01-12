@@ -38,6 +38,7 @@ section {
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
+  columns: white;
   background-image: url("icons/Group.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -49,36 +50,24 @@ section {
   gap: 18px;
   list-style: none;
 }
-
 .text {
   font-family: "Crete Round", sans-serif;
   color: #ff6b00;
   margin-bottom: 10px;
   font-size: 40px;
 }
-
-h1 {
-  font-family: "Crete Round", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  color: #ff6b00;
-}
-
 .text h1 {
-  margin: 0;
+  margin: 0px;
 }
-
 .text1 {
   font-family: "roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 32px;
+  line-height: 32pxs;
   display: flex;
   align-items: center;
 }
-
 .text2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -88,14 +77,12 @@ h1 {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 12px 0px;
 }
-
 .work-section {
   background-color: white;
   display: grid;
 }
-
 .placeholder {
   width: 327px;
   height: 237px;
@@ -110,93 +97,89 @@ h2 {
   height: 83px;
   line-height: 52px;
 }
-
 .mini-title {
-  font-family: "Crete Round", sans-serif;
+  font-family: Crete Round;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
 }
-
 .dummy-text {
-  font-family: "Inter", sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
 }
-
 .invite-one {
   padding: 12px;
   width: 124px;
   font-size: 10px;
 }
-
 .invite {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  color: #fff;
+  color: #ffffff;
   background: #ff6b00;
-  padding: 10px 0;
+  padding: 10px 0px;
   text-align: center;
-  margin: 0;
+  margin: 0px;
 }
-
 .see-project {
   margin: 20px 0;
 }
-
 .data {
-  font-family: "Crete Round", sans-serif;
+  font-family: Crete Round;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
-  text-align: center;
+  text-align: 16px;
 }
-
 .art-item {
   display: flex;
   flex-direction: column;
-  background-image: url(icons/ImgPlaceholder1.png);
-  padding: 0 10px;
 }
-
 .selections {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  padding-left: 0;
+  padding-left: 0px;
 }
-
 .buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
-  list-style: none;
-  padding: 0 10px;
-}
 
+  list-style: none;
+  padding: 0px 10px;
+}
 .buttons li {
   margin-right: 10px;
+}
+.art-item {
+  background-image: url(icons/Img\Placeholder\\(1\).png);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+.about-me {
+  left: 0px;
+  background: #1c1a19;
+}
+.buttons li {
   padding: 10px 10px;
   background: rgba(255, 255, 255, 0.24);
   border: 1px beige;
 }
-
-.about-me {
-  left: 0;
-  background: #1c1a19;
-}
-
 .h3-title {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -205,7 +188,6 @@ h2 {
   color: #ff6b00;
   margin-bottom: 24px;
 }
-
 button {
   border: none;
 }
@@ -218,11 +200,9 @@ button {
   text-align: center;
   margin-right: 10px;
 }
-
 .css-container {
   display: flex;
 }
-
 .resume {
   background: #ff6b00;
   padding: 7px;
@@ -233,21 +213,16 @@ button {
 .about-paragraph {
   color: #f4f5f7;
   font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-size: 13px;
 }
-
 .work-on {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   /* width: 100%; */
   padding: 120px 24px;
 }
-
 .list {
   list-style: none;
   font-family: "Inter", sans-serif;
@@ -262,11 +237,9 @@ button {
   padding: 0;
   margin: 0;
 }
-
 .list li {
   padding: 10px 0;
 }
-
 .best {
   display: flex;
   justify-content: center;
@@ -276,4 +249,106 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
+}
+.about-paragraph {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+h1 {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: #ff6b00;
+}
+
+.contact-form {
+  background: #ffff;
+}
+
+.contact-form > .the-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.the-contact > .contact-p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.the-contact > * + * {
+  margin-top: 58px;
+}
+
+.input__sec > .name {
+  width: 100%;
+}
+
+.name > * + * {
+  margin-top: 24px;
+}
+
+.name > label {
+  width: 100%;
+}
+
+label > input,
+textarea {
+  width: 90%;
+  text-align: left;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+input {
+  padding: 15px 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #979493;
+  border-bottom: 1px solid #dbd8d7;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+textarea {
+  width: 90%;
+  padding: 12px;
+  height: 114px;
+  background: #dbd8d7;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.btn__container > button {
+  padding: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #ff6b00;
+}
+
+.btn__container > button:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #f55000;
 }
