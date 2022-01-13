@@ -1,282 +1,397 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');    
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-    body{
-    background-color: yellow;
-    padding:0px;
-    margin:0px;
+body {
+  background-color: yellow;
+  padding: 0;
+  margin: 0;
 }
 
 .hamburger {
-    background: #3C3A39;
-    height:8%;
-    padding: 20px 10px 5px 10px;
+  background: #3c3a39;
+  height: 8%;
+  padding: 20px 10px 5px 10px;
+}
 
-}
-        
 .head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    padding:5px 12px;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 5px 12px;
 }
+
 .name {
-    font-family: 'roboto', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
 }
 
 section {
-    background: #1C1A19;
-    color: whitesmoke;
-    display: flex;
-     flex-direction: column;
-     align-items: flex-start;
-     padding: 120px 24px;
-     columns: white;
-     background-image: url("icons/Group.png");
-     background-repeat: no-repeat;
-     background-position:100% 100%;
+  background: #1c1a19;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  background-image: url("icons/Group.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  gap: 18px;
+  list-style: none;
+}
 
- .contacts {
-     display: flex;
-     justify-content: space-around;
-     gap: 18px;
-     list-style: none;
- }
- .text{
-    font-family: 'Crete Round',sans-serif;
-    color: #FF6B00;
-    margin-bottom: 10px;
-    font-size: 40px;
-    
- }
- .text h1 {
-     margin: 0px;
- }
- .text1{
-    font-family: 'roboto',sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32pxs;
-    display: flex;
-    align-items:center;
- }
- .text2{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 12px 0px;
-   }
- .work-section {
-    background-color:white;
-    display: grid;
-     }
-   .placeholder {
-    width: 327px;
-    height: 237px;
-    
+.text {
+  font-family: "Crete Round", sans-serif;
+  color: #ff6b00;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
 
-   }    
-    
- h2 {
-     font-family:"Create Round",sans-serif;
-     font-style: normal;
-     font-weight: normal;
-     font-size: 40px;
-     color: #1C1A19;
-     height: 83px;
-     line-height: 52px;
-     }
-   .mini-title {
-    font-family: Crete Round;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 44px;
-    color: #091E42;
-     }  
-    .dummy-text {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #091E42;
-    
-    }
-    .invite-one {
-        padding: 12px;
-        width: 124px;
-        font-size: 10px;
-    }
-    .invite {
-      font-family: 'Inter',sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 17px;
-      line-height: 24px;
-      color: #FFFFFF;
-      background: #FF6B00;
-      padding: 10px 0px;
-      text-align: center;
-      margin: 0px;
-    }
-    .see-project{
-        margin: 20px 0;
-        
-    }
-    .data{
-        font-family: Crete Round;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 44px;
-        text-align: 16px;
-    }
-    .art-item {
-        
-        display: flex;
-        flex-direction: column;
-    
+h1 {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: #ff6b00;
+}
 
-    }
-    .selections {
-        font-family: 'Inter',sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        padding-left: 0px;
+.text h1 {
+  margin: 0;
+}
 
-    }
-    .buttons {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        
-        list-style: none;
-        padding: 0px 10px;
-        
-    }
-    .buttons li {
-        margin-right: 10px;
-    }
-    .art-item{
-        background-image: url(icons/Img\ Placeholder\ \(1\).png);
-        display: flex;
-        flex-direction: column;
-        padding: 0px 10px;
-    }
+.text1 {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
 
-    .about-me {
-        left: 0px;
-        background: #1C1A19;
+.text2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
+}
 
-    }
-    .buttons li{
-    
-        padding: 10px 10px;
-        background: rgba(255, 255, 255, 0.24);
-        border: 1px beige;
+.work-section {
+  background-color: white;
+  display: grid;
+}
 
-    }
-    .h3-title {
-        font-family: 'Crete Round',sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 72px;
-        color: #FF6B00;
-        margin-bottom: 24px ;
+.placeholder {
+  width: 327px;
+  height: 237px;
+}
 
-      }
-      button{
-      border: none;
-      }  
+h2 {
+  font-family: "Create Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #1c1a19;
+  height: 83px;
+  line-height: 52px;
+}
 
-    .css{
-       color: black;
-       border: solid 1px rgb(2, 16, 29);
-       padding: 5px 10px;
-       width: 20%;
-       text-align: center;
-       margin-right: 10px;
-    }
-    .css-container{
-    display: flex;
-    }
-    .resume {
-        background: #FF6B00;
-        padding: 7px;
-        color: white;
-        margin-bottom: 88px;
-    }
+.mini-title {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
 
-    .about-paragraph {
-        color: #F4F5F7;
-        font-family: "Inter", sans-serif;
-        font-size: 13px;
-    }
-    .work-on {
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /* width: 100%; */
-        padding: 120px 24px;
-    }
-    .list {
-        list-style: none;
-        font-family: 'Inter',sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 22px;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-    .list li {
-        padding: 10px 0;
-    }
-    .best {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        font-family: 'InaiMathi',sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-    }
-   .about-paragraph {
-       font-family: 'Inter',sans-serif;
-       font-style: normal;
-       font-weight: normal;
-       font-size: 16px;
+.dummy-text {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
 
-   }
-   h1 {
-    font-family: 'Crete Round',sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    color: #FF6B00;
-   }
+.invite-one {
+  padding: 12px;
+  width: 124px;
+  font-size: 10px;
+}
+
+.invite {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0;
+}
+
+.see-project {
+  margin: 20px 0;
+}
+
+.data {
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: start;
+}
+
+.art-item {
+  display: flex;
+  flex-direction: column;
+  background-image: url(icons/ImgPlaceholder1.png);
+  padding: 0 10px;
+}
+
+.selections {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.about-me {
+  left: 0;
+  background: #1c1a19;
+}
+
+.buttons li {
+  padding: 10px 10px;
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px beige;
+  margin-right: 10px;
+}
+
+.h3-title {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  color: #ff6b00;
+  margin-bottom: 24px;
+}
+
+button {
+  border: none;
+}
+
+.css {
+  color: black;
+  border: solid 1px rgb(2, 16, 29);
+  padding: 5px 10px;
+  width: 20%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.css-container {
+  display: flex;
+}
+
+.resume {
+  background: #ff6b00;
+  padding: 7px;
+  color: white;
+  margin-bottom: 88px;
+}
+
+.about-paragraph {
+  color: #f4f5f7;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.work-on {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* width: 100%; */
+  padding: 120px 24px;
+}
+
+.list {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  padding: 10px 0;
+}
+
+.best {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.contact-form {
+  background: #ffff;
+}
+
+.contact-form > .the-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.the-contact > .contact-p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.the-contact > * + * {
+  margin-top: 58px;
+}
+
+.input__sec > .name {
+  width: 100%;
+}
+
+.name > * + * {
+  margin-top: 24px;
+}
+
+.name > label {
+  width: 100%;
+}
+
+input {
+  padding: 15px 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #979493;
+  border-bottom: 1px solid #dbd8d7;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+label > input,
+textarea {
+  width: 90%;
+  text-align: left;
+}
+
+textarea {
+  width: 90%;
+  padding: 12px;
+  height: 114px;
+
+  /* Theme 3 / Neutral 10 */
+  background: #fbf8f7;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.btn__container {
+  margin-top: 12px;
+}
+
+.btn__container > button {
+  padding: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #ff6b00;
+}
+
+.btn__container > button:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #f55000;
+}
+
+.footer-container {
+  padding: 0;
+  background-image: none;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.footer-line {
+  background: #dfe1e6;
+  height: 1px;
+  max-width: 100%;
+}
+
+.footer-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  gap: 10px;
+  padding: 0;
+}
