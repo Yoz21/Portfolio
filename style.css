@@ -197,6 +197,7 @@ button:disabled {
   font-size: 32px;
   line-height: 44px;
   text-align: start;
+  color: #fff;
 }
 
 .art-item {
@@ -491,14 +492,15 @@ textarea:focus {
     gap: 89px;
     background-image: url(icons/Illustration-header@2x.png);
     background-repeat: no-repeat;
-    background-position-y: 0;
+    background-position-y: -668px;
+    background-position-x: 510px;
   }
 
   .main-text {
     display: flex;
     flex-direction: column;
-    width: 566px;
-    margin-top: 264px;
+    width: 485px;
+    margin-top: 65px;
   }
 
   .text {
@@ -535,7 +537,7 @@ textarea:focus {
   .contacts {
     display: flex;
     flex-direction: column;
-    margin-top: 351px;
+    margin-top: 140px;
   }
 }
 
@@ -671,7 +673,7 @@ textarea:focus {
     font-size: 32px;
     line-height: 44px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 1);
+    color: #fff;
   }
 
   .selections {
