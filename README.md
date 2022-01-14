@@ -1,6 +1,6 @@
-# Portfolio (Mobile Version)
+# Portfolio
 
-This is a mobile version of my portfolio.It is done in the template design I have chosen from figma.
+This is a desktop version of my portfolio.It is done in the template design I have chosen from figma.
 
 ## Built With
 
