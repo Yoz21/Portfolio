@@ -155,6 +155,7 @@ h2 {
 
 button {
   border: none;
+  transition: all 0.5s ease-in;
 }
 
 button:enabled {
