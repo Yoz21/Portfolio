@@ -1,6 +1,10 @@
 # Portfolio
 
-This is a desktop version of my portfolio.It is done in the template design I have chosen from figma.You can see the online version of my portfolio at https://yoz21.github.io/Portfolio/.
+This is a desktop version of my portfolio.It is done in the template design I have chosen from figma.
+
+## Live Deploy
+
+[Deploy Link](https://yoz21.github.io/Portfolio/)
 
 ## Built With
 
