@@ -281,6 +281,7 @@ button:disabled {
 
   /* width: 100%; */
   padding: 120px 24px;
+  align-self: center;
 }
 
 .list {
