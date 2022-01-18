@@ -281,7 +281,6 @@ button:disabled {
 
   /* width: 100%; */
   padding: 120px 24px;
-  align-self: center;
 }
 
 .list {
@@ -482,6 +481,10 @@ textarea:focus {
 @media (max-width: 990px) {
   .desk-head {
     display: none;
+  }
+
+  .work-on {
+    align-self: center;
   }
 }
 
