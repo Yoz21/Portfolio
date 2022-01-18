@@ -155,6 +155,7 @@ h2 {
 
 button {
   border: none;
+  transition: all 0.5s ease-in;
 }
 
 button:enabled {
@@ -243,6 +244,19 @@ button:disabled {
   font-size: 72px;
   color: #ff6b00;
   margin-bottom: 24px;
+  animation: 2s 1 alternate david;
+}
+
+@keyframes david {
+  from {
+    margin-left: 50%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .css {
