@@ -1,14 +1,35 @@
 const btn= document.getElementById('btn');
-const closeButton = document.getElementById('close');
-const nav= document.querySelector('.nav');
-const list = document.querySelectorAll('.common-li')
+const closeButton = document.getElementById('close'); 
+const nav= document.querySelector('.desk-head');
+const list = document.querySelectorAll('.common-li');
+
+const portfolioLink = document.querySelector('#portfolio')
+const portfolio = document.querySelector('.work-section')
+const aboutLink = document.querySelector('#about')
+const about = document.querySelector('.about-me')
+const contactLink = document.querySelector('#contact')
+const contact = document.querySelector('.last-contact')
+
 
 function closeBtn() {
-    nav.classList.remove('nav-list-menu')
+    nav.classList.remove('desk-li-menu')
+    nav.style.display = 'none'
 }
 
+function openPortfolio(){
+    portfolio.scrollIntoView()
+}
+
+function openAbout(){
+      about.scrollIntoView()
+}
+
+function openContact(){
+    contact.scrollIntoView()
+}
 function navList() {
-nav.classList.add('nav-list-menu');
+   nav.classList.add('desk-li-menu');
+   nav.style.display = 'block'
 }
 
 list.forEach(element => {
@@ -16,3 +37,7 @@ list.forEach(element => {
 })
 btn.addEventListener('click', navList);
 closeButton.addEventListener('click', closeBtn) ;
+
+portfolioLink.addEventListener('click', openPortfolio)
+aboutLink.addEventListener('click', openAbout)
+contactLink.addEventListener('click', openContact) 
