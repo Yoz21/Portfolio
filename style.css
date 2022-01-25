@@ -224,6 +224,29 @@ button:disabled {
   padding: 0 10px;
 }
 
+.multi-mid {
+  display: flex;
+  flex-direction: row;
+}
+
+.puOut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.puOut li {
+  padding: 10px 10px;
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px beige;
+  margin-right: 10px;
+  border: 1px solid #DFE1E6;
+}
+
+
+
 .about-me {
   left: 0;
   background: #1c1a19;
@@ -491,13 +514,15 @@ textarea:focus {
   padding-bottom: 70px;
   border: 1px solid #DFE1E6;
   padding-left: calc(50% - 343px/2);
+  padding-top: 0px;
 }
 .multi-x {
+
   display: flex;
   flex-direction: row;
   width: 259px;
   height: 82px;
-  font-size:32px
+  font-size:32px;
 }
 .pop-up-menu .pop-title {
   font-family: "roboto", sans-serif;
@@ -505,6 +530,17 @@ textarea:focus {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+}
+.msgs {
+  color: #344563;
+  font-size: 16px;
+  width: 311px;
+  height: 220px;
+  margin: 12px 0px;
+  order: 0;
+  line-height: 24px;
+  font-weight: 400;
+  flex-grow: 0;
 }
 
 @media (min-width: 990px) {
