@@ -1,5 +1,8 @@
 const btn = document.getElementById('btn');
+const pop = document.getElementById('invite');
 const closeButton = document.getElementById('close');
+const closePop=document.getElementById('xx');
+const view = document.querySelector('.pop-up')
 const nav = document.querySelector('.desk-head');
 const list = document.querySelectorAll('.common-li');
 
@@ -13,6 +16,11 @@ const contact = document.querySelector('.last-contact');
 function closeBtn() {
   nav.classList.remove('desk-li-menu');
   nav.style.display = 'none';
+}
+
+function cancelPop(){
+    view.classList.remove('pop-up-menu');
+    view.style.display = 'none';
 }
 
 function openPortfolio() {
@@ -31,11 +39,17 @@ function navList() {
   nav.style.display = 'block';
 }
 
+function popList() {
+    view.classList.add('pop-up-menu');
+    view.style.display = 'block';
+}
+
 list.forEach((element) => {
   element.addEventListener('click', closeBtn);
 });
-
+pop.addEventListener('click',popList);
 btn.addEventListener('click', navList);
+closePop.addEventListener('click', cancelPop);
 closeButton.addEventListener('click', closeBtn);
 portfolioLink.addEventListener('click', openPortfolio);
 aboutLink.addEventListener('click', openAbout);
