@@ -25,13 +25,16 @@
     <header class="hamburger">
       <div class="head">
         <div class="name-me">Yohannes Zemed</div>
-        <img class="mob-img" src="icons/menu.png" alt="menu" />
+        <img id="btn" class="mob-img" src="icons/menu.png" alt="menu" />
         <div class="desk-head">
           <ul class="desk-li">
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Contacts</li>
-            <li>
+            <li class="close">
+              <img id="close" src="icons/Icon.png" alt="" />
+            </li>
+            <li class="common-li" id="portfolio">Portfolio</li>
+            <li class="common-li" id="about">About</li>
+            <li class="common-li" id="contact">Contacts</li>
+            <li class="common-li gone">
               <img class="desk-img" alt="desktop-img" src="icons/Rec.png" />
             </li>
           </ul>
@@ -351,5 +354,6 @@
         </ul>
       </div>
     </section>
+    <script src="main.js"></script>
   </body>
 </html>

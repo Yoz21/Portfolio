@@ -155,7 +155,6 @@ h2 {
 
 button {
   border: none;
-  transition: all 0.5s ease-in;
 }
 
 button:enabled {
@@ -244,19 +243,6 @@ button:disabled {
   font-size: 72px;
   color: #ff6b00;
   margin-bottom: 24px;
-  animation: 2s 1 alternate david;
-}
-
-@keyframes david {
-  from {
-    margin-left: 50%;
-    width: 200%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 .css {
@@ -445,8 +431,59 @@ textarea:focus {
   padding: 0;
 }
 
+.desk-li-menu {
+  background-color: #3c3a39;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  color: #fff;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  bottom: 0;
+  padding-top: 70px;
+}
+
+.desk-li-menu .gone {
+  display: none;
+}
+
+.common-li {
+  color: #fff5e1;
+  font-size: 32px;
+  padding-bottom: 16px;
+
+  /* text-align: center; */
+  margin: auto;
+  border-bottom: solid 1px #6f6c6b;
+}
+
+.close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 11px;
+  right: 2px;
+  border-bottom: none;
+}
+
+.desk-li-menu .desk-li {
+  text-align: left;
+  list-style: none;
+  padding-right: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+
 @media (min-width: 990px) {
   .mob-img {
+    display: none;
+  }
+
+  .close {
     display: none;
   }
 
