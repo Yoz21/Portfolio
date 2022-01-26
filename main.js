@@ -18,9 +18,9 @@ function closeBtn() {
   nav.style.display = 'none';
 }
 
-function cancelPop(){
-    view.classList.remove('pop-up-menu');
-    view.style.display = 'none';
+function cancelPop() {
+  view.classList.remove('pop-up-menu');
+  view.style.display = 'none';
 }
 
 function openPortfolio() {
@@ -40,8 +40,8 @@ function navList() {
 }
 
 function popList() {
-    view.classList.add('pop-up-menu');
-    view.style.display = 'block';
+  view.classList.add('pop-up-menu');
+  view.style.display = 'block';
 }
 
 list.forEach((element) => {
