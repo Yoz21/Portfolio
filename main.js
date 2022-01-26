@@ -1,8 +1,8 @@
 const btn = document.getElementById('btn');
 const pop = document.getElementById('invite');
 const closeButton = document.getElementById('close');
-const closePop=document.getElementById('xx');
-const view = document.querySelector('.pop-up')
+const closePop = document.getElementById('xx');
+const view = document.querySelector('.pop-up');
 const nav = document.querySelector('.desk-head');
 const list = document.querySelectorAll('.common-li');
 
@@ -47,7 +47,7 @@ function popList() {
 list.forEach((element) => {
   element.addEventListener('click', closeBtn);
 });
-pop.addEventListener('click',popList);
+pop.addEventListener('click', popList);
 btn.addEventListener('click', navList);
 closePop.addEventListener('click', cancelPop);
 closeButton.addEventListener('click', closeBtn);
