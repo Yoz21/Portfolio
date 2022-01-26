@@ -511,6 +511,7 @@ textarea:focus {
 
 .msgs {
   color: #344563;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   width: 311px;
   height: 220px;
@@ -573,6 +574,11 @@ textarea:focus {
 }
 
 @media (min-width: 990px) {
+  .overlay {
+    background-color: white;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+  }
   .pop-up-menu {
     position: absolute;
     display: block;
@@ -589,7 +595,7 @@ textarea:focus {
   }
 
   .pop-img {
-    flex: 1;
+    width: 65%;
   }
 
   .snap {
@@ -598,13 +604,15 @@ textarea:focus {
 
   .desk-msgs {
     flex: 1;
+    width: 45%;
     padding: 5px 70px;
   }
 
   .msgs {
-    width: fit-content;
-    font-size: 30px;
+    font-size: 16px;
     margin-bottom: 74px;
+    line-height: 30px;
+    padding-bottom: 25px;
   }
 
   .live-source {
