@@ -22,7 +22,7 @@ const projectTechnologies = document.querySelector('.puOut');
 const projectLink1 = document.querySelector('.live-link');
 const projectLink2 = document.querySelector('.git');
 const artProject = document.querySelectorAll('.art-container');
-const background = document.querySelector ('.background');
+const background = document.querySelector('.background');
 
 // 1.  get all popup elements from the dom, which includes name, description, image, technologies //
 
