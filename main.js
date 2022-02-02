@@ -21,6 +21,9 @@ const projectImage = document.querySelector('.pop-img');
 const projectTechnologies = document.querySelector('.puOut');
 const projectLink1 = document.querySelector('.live-link');
 const projectLink2 = document.querySelector('.git');
+const artProject = document.querySelectorAll('.art-container');
+const background = document.querySelector ('.background');
+
 // 1.  get all popup elements from the dom, which includes name, description, image, technologies //
 
 const projects = [{
@@ -41,6 +44,8 @@ function cancelPop() {
   view.classList.remove('pop-up-menu');
   view.style.display = 'none';
   flow.style.overflow = 'auto';
+  background.style.opacity = '1';
+  background.style.filter = 'none';
 }
 
 function openPortfolio() {
@@ -63,6 +68,8 @@ function popList() {
   view.classList.add('pop-up-menu');
   view.style.display = 'block';
   flow.style.overflow = 'hidden';
+  background.style.opacity = '0.5';
+  background.style.filter = 'blur(6px)';
 
   // for name, desciption, link, image, and technologies
   // set their innerText with the first object from the array, i.e
@@ -81,6 +88,10 @@ function popList() {
 
 list.forEach((element) => {
   element.addEventListener('click', closeBtn);
+});
+
+artProject.forEach((art) => {
+  art.addEventListener('click', popList);
 });
 
 pop.addEventListener('click', popList);
